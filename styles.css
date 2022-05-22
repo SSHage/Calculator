@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width:40vw;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border: 1px solid black;
+    height: 20vh;
+    width:auto;
+}
+
+display {
+    font-size: calc(5vw + 5vh + .5vmin);
+}
+
+number, operator, percentage, decimal, whitespace {
+    border: 1px solid blue;
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+}
+
+row2,row3,row4,row5 {
+    display: flex;
+    flex-direction: row;
+    font-size: calc(5vw + 5vh + .5vmin);
+    border: 1px solid black;
+    justify-content: space-around;
+
+}
+
+percentage {
+    display: flex;
+    align-items: center;
+    font-size: calc(3vw + 3vh + .5vmin);
+}
