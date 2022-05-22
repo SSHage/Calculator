@@ -44,3 +44,16 @@ function operate(operator, num1, num2){
         divide(num1,num2);
     }
 }
+
+//function to record buttons clicked
+const buttons = document.querySelectorAll("button");
+
+for (const button of buttons){
+    button.addEventListener("click",function(e){
+        this.classList.add("clicked");
+    })
+    button.addEventListener("transitionend",function(e){
+        this.classList.remove("clicked");
+    })   
+}
+
