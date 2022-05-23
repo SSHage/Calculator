@@ -27,11 +27,11 @@ display {
     align-items: flex-end;
 }
 
-.number, .operator, .decimal, .percentage {
+.number, .operator {
     width: 8vw;
 }
 
-.percentage {
+#percentage {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,7 +44,6 @@ button {
     border: 0.1px solid black;
     transition: all 0.05s ease;
 }
-
 
 .whitespace{
     width: 8vw;

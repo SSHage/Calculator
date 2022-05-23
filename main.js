@@ -54,13 +54,21 @@ const buttons = document.querySelectorAll("button");
 for (const button of buttons){
     button.addEventListener("click",function(e){
         this.classList.add("clicked");
+            // append to display if number button clicked
             if (this.classList.contains("number")){
-                display.innerHTML += button.innerHTML;
-                console.log(display.innerHTML);
+                display.innerHTML += this.innerHTML;
+                // shrink font if >9 digits
                 if (display.innerHTML.length > 9){
                     display.classList.add("shrink");
                     }
                 }
+            // clear display if C is pressed
+            else if (this.innerHTML.value = "C"){
+                display.innerHTML = "";
+                display.classList.remove("shrink");
+            }
+
+            
         })
     button.addEventListener("transitionend",function(e){
         this.classList.remove("clicked");
