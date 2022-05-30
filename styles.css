@@ -17,6 +17,9 @@ row1 {
 
 display {
     font-size: calc(5vw + 5vh + .5vmin);
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-bottom: 2vh;
     /* background-color: gray; */
 }
 
