@@ -18,8 +18,13 @@ Added some colours to the calculator
 06/06/22:
 Added functionality for operators
 
+14/06/22:
+To review calculator in the future
+
 To do:
 > Add in functionality for multiple digit operators. To solve logic for '0 values'.
+
+
 
 Remarks:
 Additional functionality can be added for bottom two right buttons in the future.

@@ -34,13 +34,11 @@ display {
 
 .number {
     background-color: lightseagreen;
+    width: 8vw;
 }
 
 .decimal, .operator {
     background-color: rgb(234, 159, 9);
-}
-
-.number, .operator {
     width: 8vw;
 }
 
